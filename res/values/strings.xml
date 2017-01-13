@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Melhorar Minha Cidade</string>
+    <string name="title_activity_login">HipPrint</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="login_email">E-mail</string>
+    <string name="login_senha">Senha</string>
+    <string name="login_re_senha">Repetir Senha</string>
+    <string name="login_repetir_senha">Repetir Senha</string>
+    <string name="login_esqueci_minha_senha">Esqueci minha senha</string>
+    <string name="login_voce_esta_logado_como">Você está logado como:</string>
+    <string name="login_importar">Importar</string>
+    <string name="botao_upload">Upload Fotos</string>
+    <string name="title_activity_pega_varias_fotos">PegaVariasFotos</string>
+    <string name="title_activity_photo">PhotoActivity</string>
+    <string name="mensagem_alerta_aguarde">Aguarde, estamos carregando as suas fotos...</string>
+    <string name="mensagem_alerta_salvando">Aguarde...</string>
+    <string name="mensagem_alerta_aguarde_upload">Aguarde, estamos fazendo upload das suas fotos...</string>
+    <string name="mensagem_alerta_efetuando_login">Aguarde, fazendo login...</string>
+    <string name="logo_hipprint">www.hipprint.com.br</string>
+    <string name="logo_cloud_albuns">CloudAlbuns</string>
+    <string name="esqueci_a_senha">Esqueci minha senha</string>
+    <string name="msg_erro_no_login">Não foi possível efetuar login. Verifique sua conexão de internet</string>
+    <string name="msg_erro_no_login2">Não foi possível efetuar login. Usuário ou senha inválidos</string>
+    <string name="title_usuario_ou_senha_invalido">Oooops verifique usuário / senha</string>
+    <string name="txt_tentar_novamente">Tentar novamente</string>
+    <string name="txt_cancelar">Cancelar</string>
+    <string name="txt_sim">Sim</string>
+    <string name="txt_nao">Não</string>
+    <string name="txt_buscar_da_galeria">Buscar da Galeria</string>
+    <string name="txt_deseja_sair">Deseja sair ?</string>
+    <string name="txt_logout">Logout</string>
+    <string name="txt_sair">Sair</string>
+    <string name="title_activity_logout">LogoutActivity</string>
+    <string name="txt_voce_esta_logado">Você está logado como:</string>
+    <string name="title_activity_recuperar_senha">RecuperarSenhaActivity</string>
+    <string name="txt_recuperacao_de_senha">Recuperação de senha:</string>
+    <string name="msg_email_invalido">Favor informar um E-mail válido</string>
+    <string name="msg_email_null">Favor preencher o E-mail</string>
+    <string name="mensagem_alerta_aguarde_email">Aguarde, estamos reenviando a sua senha.</string>
+    <string name="title_activity_cadastrar">CadastrarActivity</string>
+    <string name="msg_senha_null">Favor preencher a senha</string>
+    <string name="msg_senha_diferente_resenha">As senha informadas são diferentes</string>
+    <string name="msg_resenha_null">Favor preencher todos os campos</string>
+    <string name="msg_senha_muito_pequena">A senha precisa ter no mínimo 5 caracteres</string>
+    <string name="msg_estabiliade_no_sistema">Parece que estamos com uma instabilidade, já fomos avisados se sua tentativa.</string>
+    <string name="login_nome">Nome</string>
+    <string name="sobre">O Cidade Melhor</string>
+    <string name="comoFunciona">Como funciona</string>
+    <string name="mapaMelhorias">Onde precisa melhorar</string>
+    <string name="comeceAgora">Melhore já</string>
+    <string name="navigation_drawer_open">Abrir Menu</string>
+    <string name="navigation_drawer_close">Fechar Menu</string>
+    <string name="Login">Login</string>
+    <string name="dummy_button">Comece agora</string>
+    <string name="dummy_content">Melhorar\n Minha \n Cidade</string>
+    <string name="action_example">Comece agora</string>
+    <string name="title_problema_list">Problemas</string>
+    <string name="title_problema_detail">problema Detail</string>
+
+</resources>

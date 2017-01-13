@@ -1,0 +1,109 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:id="@+id/photo"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".PhotoActivity" >
+
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Título"
+        android:inputType="text"
+        android:lines="@integer/one_constant"
+        android:text=""
+        android:textStyle="normal"
+        android:typeface="normal" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:ems="10"
+        android:hint="Descricao"
+        android:inputType="textMultiLine"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.07"
+        android:ems="10"
+        android:hint="Endereço"
+        android:inputType="textPostalAddress" />
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <!-- Carousel items container - lays out items horizontally -->
+
+        <LinearLayout
+            android:id="@+id/carousel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" />
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal" >
+        
+				<ImageButton
+				    android:id="@+id/btAbrirCamera"
+				    android:layout_width="334dp"
+				    android:layout_height="wrap_content"
+				    android:background="@color/white_overlay"
+				    android:paddingRight="@dimen/activity_horizontal_margin"
+				    android:src="@drawable/btn_tirar_foto" />
+
+				<ImageButton
+				    android:id="@+id/photo_bt_upload"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:adjustViewBounds="true"
+				    android:background="@color/white_overlay"
+				    android:baselineAlignBottom="true"
+				    android:scaleType="center"
+				    android:src="@drawable/btn_enviar_foto_desabilitado" />
+
+				<ImageButton
+				    android:id="@+id/photo_bt_chamar_gallery"
+				    android:layout_width="wrap_content"
+				    android:layout_height="wrap_content"
+				    android:background="@color/white_overlay"
+				    android:paddingLeft="@dimen/activity_vertical_margin"
+				    android:src="@drawable/btn_galeria" />
+
+    </LinearLayout>
+
+<!--     <ProgressBar -->
+<!--         android:id="@+id/photo_pb_andamento_upload" -->
+<!--         style="?android:attr/progressBarStyleLarge" -->
+<!--         android:layout_width="285dp" -->
+<!--         android:layout_height="77dp" -->
+<!--         android:layout_weight="0.30" /> -->
+
+</LinearLayout>
